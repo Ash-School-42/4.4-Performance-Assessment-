@@ -19,13 +19,13 @@ function App() {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <h1>To-do List</h1>
 
       <input
         type="text"
         value={input}
         onChange={(event) => setInput(event.target.value)}
-        placeholder="Enter a todo"
+        placeholder="Enter a to-do"
       />
 
       <button onClick={addTodo}>Add</button>
